@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task_syncing_user_permissions_with_azure.html 
+keywords: netapp, saas backup, microsoft 365, synchronize, synchronizing, granting, permissions, azure, active directory 
+summary: En NetApp SaaS Backup para Microsoft 365, es posible gestionar los permisos con Azure Active Directory. 
+---
+= Sincronizar permisos de usuario con Azure Active Directory
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Es posible sincronizar manualmente los permisos de usuario con Azure Active Directory desde SaaS Backup para Microsoft 365.
+
+.Pasos
+. Haga clic en image:services.gif["Captura de pantalla del botón Servicios"] en el panel de navegación de la izquierda.
+. Haga clic en el vínculo de Microsoft 365.
++
+image:mso365_settings.gif["Captura de pantalla del botón Microsoft 365"]
+
+. Haga clic en *Rediscover Permissions*.
++
+image:rediscover_permissions.gif["Icono Rediscover permisos"]
+
++
+Si se detectan permisos para un servicio, éste se muestra con la opción de activo.
+
+

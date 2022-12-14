@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: task_scheduling_backup_or_changing_frequency.html 
+keywords: netapp, saas backup, microsoft 365, schedule, scheduling, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archive mailboxes, archive, archive, shared, mailboxes 
+summary: Sigue el mismo proceso para programar una copia de seguridad nueva o cambiarla a la frecuencia de una copia de seguridad actual. 
+---
+= Programar un backup o cambiar la frecuencia de los backups
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede hacer un backup de sus datos no protegidos asignándoles a una normativa de backup. Cuando los datos no protegidos se asignan a una política de copia de seguridad, pasan a un estado *PENDIENTE* hasta que se produzca la siguiente copia de seguridad programada para la directiva asignada, después de la cual se traslada a un estado *PROTEGIDO*. Si desea cambiar la frecuencia de backup de datos protegidos, puede asignar los datos a un nivel de política de backup diferente.
+
+.Pasos
+. En el panel de control, haga clic en el número que aparece arriba * PROTECTED* o *UNPROTECTED* en el cuadro del servicio que desea cambiar. Si desea cambiar la frecuencia de copia de seguridad de los datos protegidos, haga clic en *PROTEGIDO*. Si desea realizar una copia de seguridad de los buzones, sitios o MySites recién descubiertos, seleccione *DESPROTEGIDO*.
++
+image:number_protected_unprotected.gif[""]
+
+. Seleccione sus opciones de backup.
++
+.. Para Exchange
++
+*** Si está realizando una copia de seguridad de los buzones compartidos (sólo Tier 3), haga clic en la ficha *COMPARTIDO*.
+*** Si va a realizar una copia de seguridad de los buzones de archivo (sólo Tier 3), haga clic en la ficha *ARCHIVO*.
+*** Si realiza una copia de seguridad o cambia los buzones de correo normales, permanezca en la ficha *USER*.
+
+
+.. Para SharePoint
++
+*** Si está realizando una copia de seguridad o cambiando la política de copia de seguridad para los sitios, permanezca en la ficha *SITES*.
+
+
+.. Para OneDrive
++
+*** Si está realizando una copia de seguridad o cambiando la directiva de copia de seguridad para los usuarios, permanezca en la ficha *USER*.
+
+
+.. Para grupos de Microsoft 365
++
+*** Si está realizando una copia de seguridad de grupos (sólo nivel 3), permanezca en la pestaña *GRUPOS*.
+*** Si está realizando una copia de seguridad de los equipos (sólo Tier 3), haga clic en la ficha *EQUIPOS*.
+
+
+
+
+. Seleccione los elementos de los que desea realizar la copia de seguridad.
+. Haga clic en el menú *grupos*.
++
+image:groups_menu.gif["Menú grupos"]
+
+. Seleccione el nuevo nivel de políticas para el backup.
++
+
+NOTE: Los grupos y buzones de almacenamiento de Microsoft 365 solo se pueden mover a la directiva de nivel 3.
+
+. Haga clic en *aplicar*.
+

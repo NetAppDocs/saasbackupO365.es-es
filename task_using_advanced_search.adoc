@@ -1,0 +1,104 @@
+---
+sidebar: sidebar 
+permalink: task_using_advanced_search.html 
+keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange 
+summary: Puede habilitar la búsqueda avanzada para buscar elementos de copia de seguridad en Microsoft 365 Exchange Online. 
+---
+= Utilice Búsqueda avanzada para Microsoft Exchange Online
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede utilizar *Búsqueda avanzada* para Microsoft Exchange Online para buscar elementos individuales o compartidos del buzón y restaurar estos elementos en su buzón original.
+
+Los administradores pueden activar *Búsqueda avanzada* en link:https://mysupport.netapp.com/["Soporte técnico"] y enviando una solicitud. También puede enviar un correo electrónico al equipo de soporte de SaaS Backup en saasbackupsupport@netapp.com.
+
+Después de habilitar *Búsqueda avanzada*, puede activar Portal de autoservicio (SSP) para arrendatarios individuales. Si no activa *Búsqueda avanzada* antes de la primera copia de seguridad, no aparecerán resultados de búsqueda. Para obtener más información sobre el Portal de autoservicio, consulte link:reference_about_ssp.html["Acerca de Self Service Portal"].
+
+image:advanced_search_settings_exchange.png["Captura de pantalla de la configuración de búsqueda avanzada"]
+
+* <<Active Advanced Search>>
+* <<Realizar una búsqueda>>
+* <<Buscar trabajos de búsqueda anteriores>>
+
+
+
+
+== Active Advanced Search
+
+Puede activar la función *Búsqueda avanzada* en Configuración de búsqueda avanzada.
+
+
+NOTE: Los usuarios con licencia y sin licencia pueden utilizar la función de búsqueda avanzada si está activada.
+
+.Pasos
+. En el panel de control, haga clic en *Búsqueda avanzada* en el menú de la izquierda.
+. Haga clic en *Configuración de búsqueda avanzada*.
++
+** De forma predeterminada, la lista muestra todos los usuarios con licencia. Cambie entre *Mostrar todos los usuarios* y *Mostrar sólo usuarios con licencia* para filtrar el tipo de usuario en la lista.
+** Utilice la herramienta Buscar y escriba al menos tres caracteres para buscar un usuario único.
+
+
+. Para activar un usuario, en la columna *Búsqueda avanzada*, seleccione *On*. La próxima vez que proteja a ese usuario habilitado en una copia de seguridad completa o incremental, podrá realizar una búsqueda de cualquier elemento de correo electrónico nuevo.
+. Haga clic en *Guardar configuración*.
+. Para hacer una copia de seguridad de los usuarios habilitados, vaya a. link:task_scheduling_backup_or_changing_frequency.html["Programar una copia de seguridad o cambiar la frecuencia de copia de seguridad"] Y permanezca en la ficha *Usuario* para seleccionar los usuarios para copia de seguridad.
+
+
+
+
+== Realizar una búsqueda
+
+Puede realizar una búsqueda de elementos de buzón individuales o compartidos y restaurar estos elementos en su buzón original en *realizar búsqueda*.
+
+.Pasos
+. En el panel de control, haga clic en *Búsqueda avanzada* en el menú de la izquierda.
+. Haga clic en *realizar búsqueda*.
+. Introduzca la información en los campos obligatorios con un asterisco (*). Campos opcionales: Condiciones y condiciones de consulta.image:advanced_search_box.png["La imagen muestra las opciones de búsqueda de realizar con dos elementos necesarios"]
++
+** *Seleccionar usuario*: Escriba al menos tres letras en el nombre del usuario para buscar el usuario que desea seleccionar.
+** *Buscar*: Escriba por lo menos tres caracteres en una palabra clave. Si desea buscar una frase, coloque las palabras en la frase dentro de las comillas (ejemplo: “Hola mundo”). Si las palabras se pueden buscar por separado, no se necesitan comillas.
+** *Coincidencia exacta*: Seleccione si desea buscar sólo las palabras clave exactas.
+** *Condiciones*:
++
+*** *Elementos*: Selecciona elementos para buscar todos los elementos del buzón.
+*** *Nombre de la carpeta*: Seleccione el nombre de la carpeta para buscar elementos en una carpeta específica del buzón. Escriba el nombre de la carpeta en el cuadro de texto proporcionado.
+
+
+** *Intervalo de fechas*: En el menú desplegable rango de fechas, seleccione *últimos 7 días* o *intervalo personalizado* para introducir la fecha de inicio y finalización de la búsqueda.
+** *Tamaño en bytes*: En el menú desplegable Tamaño en bytes, seleccione *mayor que (>)* o *menor que (<)*. A continuación, introduzca el tamaño en bytes.
+** *De*: Introduzca la dirección de correo electrónico del remitente.
+** *A*: Introduzca la dirección de correo electrónico del destinatario.
+** *Asunto*: Selecciona para buscar sólo por tema.
+** *Tiene archivo adjunto*: Seleccione si el elemento de correo electrónico o los elementos tienen archivos adjuntos.
+
+
+. Haga clic en *Buscar*.
+. Para buscar el trabajo de búsqueda, vaya a Buscar trabajos de búsqueda anteriores a continuación.
+
+
+
+
+== Buscar trabajos de búsqueda anteriores
+
+Puede encontrar trabajos de búsqueda anteriores en *trabajos de búsqueda previos*.
+
+.Pasos
+. En el panel de control, haga clic en *Búsqueda avanzada* en el menú de la izquierda.
+. Haga clic en *trabajos de búsqueda anteriores*.
+. Busque el trabajo de búsqueda que realizó anteriormente. Si aparecen cero resultados de búsqueda, eso significa que ningún elemento cumple las condiciones que introdujo para su búsqueda.
+. Haga clic en el número total de resultados de búsqueda para mostrarlos.
+. En la vista de visualización de resultados, puede restaurar elementos, seleccionar cuántas entradas se muestran mediante el menú desplegable *Mostrar # entradas*, o buscar para reducir aún más los resultados.
++
+image:search_results_display_view.png["Imagen muestra la vista de visualización de resultados de búsqueda con los aspectos destacados para restauración, número de entradas y funciones de búsqueda"]
+
++
+
+NOTE: Los elementos restaurados vuelven al buzón original con la convención de nomenclatura CC_search_mm.DD_Time. Para encontrar el trabajo de restauración, vaya a *trabajos* en el menú de la izquierda.
+
+. Para salir de la pantalla de resultados de la búsqueda, haga clic en *Volver a Buscar trabajos*.
+

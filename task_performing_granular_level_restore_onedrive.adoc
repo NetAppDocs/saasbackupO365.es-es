@@ -1,0 +1,116 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_onedrive.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, high-level restores, granular restores, Microsoft OneDrive for Business 
+summary: Puede utilizar SaaS Backup para Microsoft 365 para realizar restauraciones de alto nivel y granular para Microsoft OneDrive para la Empresa. 
+---
+= Realice una restauración de nivel granular para Microsoft OneDrive para la Empresa
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Con Microsoft OneDrive para la Empresa, puede restaurar elementos de nivel granular, como carpetas o archivos individuales, para una lista o una biblioteca. También puede restaurar grupos o blocs de notas de OneNote.
+
+De forma predeterminada, solo el backup más reciente está disponible para restaurar. Otras opciones disponibles son:
+
+image:backup_for_restore_availability.png["Backups disponibles para restaurar"]
+
+En la tabla, se indican las opciones de restauración compatibles con elementos a nivel granular para OneDrive para la Empresa.
+
+[cols="20,20a,20a,20a,40"]
+|===
+| Tipo de elemento | Restaurar en el mismo MySite | Restaurar a otro MySite | Exportar datos | Dónde encontrarlo en SaaS Backup 
+
+
+| Unidad única  a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| OneDrive para Empresas > MySites 
+
+
+| Varias unidades  a| 
+No
+ a| 
+No
+ a| 
+No
+| OneDrive para Empresas > MySites 
+
+
+| Carpetas individuales o múltiples  a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| OneDrive para la Empresa > Mis Sitios > <Drive Name> > Archivos 
+
+
+| Elementos individuales/múltiples  a| 
+Sí
+ a| 
+Sí
+ a| 
+No
+| OneDrive para la Empresa > Mis Sitios > <Drive name> > Archivos 
+
+
+| Carpetas de portátiles  a| 
+Sí
+ a| 
+Sí
+ a| 
+No
+| OneDrive para la Empresa > Mis Sitios > <Drive name> > Archivos 
+
+
+| OneNote carpetas individuales/múltiples  a| 
+Sí
+ a| 
+Sí
+ a| 
+No
+| OneDrive para la Empresa > Mis Sitios > <Drive name> > Archivos > Cuadernos 
+|===
+.Pasos
+. En el Panel de control, haga clic en el número que aparece arriba * PROTECTED* en el cuadro OneDrive.
+. Haga clic en el MySite para el que necesita realizar la restauración.
+. Seleccione el grupo de archivos.
++
+Para restaurar carpetas o archivos individuales dentro de un grupo, haga clic en el grupo de archivos. Para restaurar una carpeta completa, seleccione la carpeta. Para restaurar archivos individuales dentro de una carpeta, seleccione la carpeta que contiene los archivos y, a continuación, seleccione los archivos individuales.
+
+. Haga clic en *Restaurar*.
+. Seleccione una opción de restauración:
++
+** *Restaurar en el mismo MySite*
++
+Si va a restaurar archivos individuales en el mismo MySite, de forma predeterminada, se creará una carpeta de restauración con la fecha y hora actuales en la ubicación de contenido original que contiene la copia de seguridad.
+
++
+Si selecciona *sustituir el contenido existente*, los datos actuales se sustituyen por completo por la copia de seguridad.
+
+** *Restaurar a otro MySite*
++
+Si restaura a otro MySite, debe introducir el MySite de destino en el campo de búsqueda. Puede escribir una parte del MySite de destino en el campo de búsqueda para iniciar una búsqueda automática para el destino coincidente MySites.
+
+** *Datos de exportación*
++
+Si exporta datos, debe descargarla. Vaya a Informes en el menú de la izquierda. Busque el trabajo de datos de exportación. Haga clic en *total carpetas*. A continuación, haga clic en *Exportar enlace de descarga de datos*. Se descarga un archivo zip. Abra el archivo zip para extraer los datos.
+
++
+
+NOTE: Si selecciona la opción de restauración *Exportar datos*, el enlace proporcionado es válido durante siete días y se autentica previamente.
+
+
+
+. Haga clic en *Confirmar*.
+. Haga clic en *Ver el progreso del trabajo* para controlar el progreso de la restauración.
+

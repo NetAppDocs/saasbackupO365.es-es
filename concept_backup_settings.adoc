@@ -1,0 +1,120 @@
+---
+sidebar: sidebar 
+permalink: concept_backup_settings.html 
+keywords: netapp, saas backup, microsoft 365, backup, setting, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows 
+summary: Puede actualizar la configuración de la copia de seguridad para controlar varias opciones de copia de seguridad. La configuración de respaldo disponible varía según el servicio. 
+---
+= Configuración de copia de seguridad
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede actualizar la configuración de la copia de seguridad para controlar varias opciones de copia de seguridad. La configuración de respaldo disponible varía según el servicio.
+
+
+
+== Configuración de backup por servicio
+
+[cols="12,64,24,24"]
+|===
+| Configuración de backup | Descripción | Activado | Disponible en... 
+
+
+| Sincronización automática  a| 
+Permite la sincronización automática programada de usuarios, OneDrives o colecciones de sitios recién añadidos o eliminados una vez cada 24 horas.
+| De forma predeterminada  a| 
+* Microsoft Exchange Online
+* Microsoft SharePoint Online
+* Microsoft OneDrive para la Empresa
+* Grupos de Microsoft 365
+
+
+
+
+| Habilite copias de seguridad de OneNote  a| 
+Permite la copia de seguridad de los blocs de notas de OneNote.
+| Manualmente  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive para la Empresa
+
+
+
+
+| Active la restauración de elementos recuperables  a| 
+Permite al usuario restaurar elementos recuperables de Microsoft Exchange.
+| Manualmente  a| 
+* Microsoft Exchange Online
+
+
+
+
+| Activar copia de seguridad de elementos recuperables  a| 
+Permite la creación de backups de elementos recuperables de Microsoft Exchange. Sólo la normativa de backup del nivel 1 permite realizar backups de elementos recuperables.
+| Manualmente  a| 
+* Microsoft Exchange Online
+
+
+
+
+| Incluir flujos de trabajo  a| 
+Incluye flujos de trabajo en el backup.
+| Manualmente  a| 
+* Microsoft SharePoint Online
+* Grupos de Microsoft 365
+
+
+
+
+| Incluir vistas de lista  a| 
+Incluye vistas de lista en backup.
+| Manualmente  a| 
+* Microsoft SharePoint Online
+* Grupos de Microsoft 365
+
+
+
+
+| Incluir historial de versiones  a| 
+Permite el mantenimiento de varias versiones de archivos en la copia de seguridad.
+
+
+NOTE: Esta configuración sólo se aplica a archivos individuales. No se aplica a carpetas, niveles o servicios completos.
+| De forma predeterminada  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive para la Empresa
+* Grupos de Microsoft 365
+
+
+
+
+| Número de versiones  a| 
+Establece el número de versiones de archivo de copia de seguridad que se van a mantener. De forma predeterminada, se realiza una copia de seguridad de la última versión de forma automática, aunque no esté activada esta configuración.
+| Se establecen en 20 de manera predeterminada  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive para la Empresa
+* Grupos de Microsoft 365
+
+
+|===
+
+
+== Actualice la configuración de copia de seguridad
+
+.Pasos
+. Haga clic en *Servicios* en el panel de navegación de la izquierda.
++
+image:services.gif["Captura de pantalla del botón Servicios"]
+
+. Haga clic en Microsoft 365.
++
+image:mso365_settings.gif["Captura de pantalla del botón Microsoft 365"]
+
+. En *Administrar servicios*, haga clic en el icono de configuración de copia de seguridad image:configure_icon.gif["Captura de pantalla del icono de configuración"] junto al servicio que necesita actualizar. Aparecerá una lista de los ajustes de copia de seguridad disponibles para el servicio seleccionado.
+. Seleccione la configuración de backup que desee.
+. Haga clic en *Confirmar*.
+

@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: task_browsing_backups.html 
+keywords: netapp, saas backup, Microsoft, microsoft 365, protected, protected instances, backup, backed up items, backups, browse, browsing, OneDrive, SharePoint, Exchange, Microsoft 365 Groups, date range, days, items, user, users, group, groups 
+summary: Puede examinar los backups en todos sus servicios de Microsoft 365. 
+---
+= Examinar backups
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede examinar instancias protegidas en backups recientes o en todos sus backups de Microsoft 365 Exchange, SharePoint, OneDrive para la Empresa y grupos.
+
+
+NOTE: La configuración de exploración predeterminada es *mostrando la copia de seguridad de los últimos 5 días*. Si selecciona 5 días, sólo aparecen los elementos de los que se ha realizado una copia de seguridad en los últimos 5 días. Puede cambiar el intervalo de tiempo según sea necesario.
+
+Para estar seguro de que encuentra lo que está buscando, compruebe la fecha a la izquierda del menú desplegable de intervalo de tiempo.
+
+image:8_october_last_5_days_backup_highlight_date_&_count.png["la imagen resalta la fecha y el recuento de una exploración de un buzón de usuario"]
+
+.Pasos
+. En *Dashboard*, seleccione el servicio que desea buscar copias de seguridad y, a continuación, seleccione instancias protegidas.
++
+image:number_protected_unprotected_highlight_protected.gif["Instancias de Exchange protegidas resaltadas"]
+
+. Seleccione la cuenta que desea examinar.
+. Seleccione el intervalo de tiempo de los elementos de los que desea buscar con copia de seguridad.
++
+image:date_range_browse_feature.gif["Image muestra las opciones de intervalo de tiempo para explorar las copias de seguridad"]
+
++
+
+NOTE: *Ver historial de copias de seguridad* muestra una vista de calendario de las copias de seguridad. Si selecciona *Ver historial de copia de seguridad* y selecciona una fecha anterior al día actual, esto cambia el intervalo de tiempo de las copias de seguridad que ve. Por ejemplo, si hoy es el 8 de octubre, selecciona el 5 de octubre en la vista de calendario y, a continuación, selecciona examinar los últimos 5 días a partir del 5 de octubre, los elementos que puede examinar estarán disponibles del 1-5 de octubre.
+
+. Haga clic en el tipo de elementos que desee ver: Correo, Calendario, tareas, Contactos, Archivos, Contenidos u otros.
+. Examinar los elementos de los que se ha realizado una copia de seguridad
+

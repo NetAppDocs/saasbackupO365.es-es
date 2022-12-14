@@ -1,0 +1,88 @@
+---
+sidebar: sidebar 
+permalink: concept_supported_templates_and_apps.html 
+keywords: netapp, saas backup, microsoft 365, backup, supported, templates, apps 
+summary: Sólo se admiten determinadas plantillas y aplicaciones para Microsoft SharePoint Online. 
+---
+= Plantillas y aplicaciones compatibles para backup en Microsoft SharePoint Online
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Sólo se admiten determinadas plantillas y ciertas aplicaciones para los backups de Microsoft SharePoint Online.
+
+
+
+== Plantillas compatibles
+
+Sólo se admiten las plantillas siguientes para backups en línea de Microsoft SharePoint.
+
+* STS#0 (Sitio del equipo)
+* BLOG#0 (sitio del blog)
+* DESARROLLO#0 (sitio del desarrollador)
+* PROJECTSITE no 0 (Sitio del proyecto)
+* COMUNIDAD#0 (sitio de la comunidad)
+* BDR#0 (centro de documentación)
+* COMUNITYPORTAL#0 (portal de la comunidad)
+* ENTERWiki#0 (WIKI de la empresa)
+* EHS#1 (sitio raíz)
+* EHS#0 (sitio raíz)
+* SITEPAGEPUBLISHING#0 (sitio de comunicación)
+* GRUPO#0 (prefijo de colección de sitios de grupo)
+* STS#1 (sitio en blanco)
+* STS#2 (área de documentos)
+* STS#3 (sitio moderno del equipo)
+* APLICACIÓN n.o 0 (plantilla de aplicación)
+
+
+
+
+== Aplicaciones compatibles
+
+Las siguientes aplicaciones son compatibles con los backups en línea de Microsoft SharePoint.
+
+* Lista personalizada
+* Badge (sitio de la comunidad)
+* Biblioteca de documentos
+* Biblioteca de estilos
+* Encuesta
+* Enlace
+* Anuncio
+* Contacto
+* Calendario
+* Consejo de discusión
+* Fotos
+* Biblioteca de imágenes
+* Elementos Web de contenido
+* Galería de plantillas de lista
+* Galería de páginas maestras
+* Páginas del sitio
+* Lista personalizada en la vista Dataset
+* Galería de soluciones
+* Galería temática
+* Looks compuestos
+* Enlaces promocionados
+* Tareas
+* Publicaciones (sitio de blogs)
+* Comentarios (sitio de blogs)
+* Debates de la comunidad (sitio de la comunidad)
+* Categorías (sitio de blogs)
+* Categorías de la comunidad (sitio de la comunidad)
+* Informes
+* Páginas Wiki
+* Imágenes de colección de sitios
+* Miembros de la comunidad (sitio de la comunidad)
+* Seguimiento de problemas
+* Biblioteca de registros
+* Uso compartido de enlaces
+

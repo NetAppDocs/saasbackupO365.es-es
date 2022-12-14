@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: concept_paid_subscription_workflow.html 
+keywords: netapp, saas backup, microsoft 365, getting started, paid, subscription, workflow 
+summary: Para empezar a utilizar una suscripción pagada para SaaS Backup para Microsoft 365, debe decidir qué tipo de almacenamiento utilizará para sus backups, crear una cuenta de servicio de Microsoft 365 con permisos globales y completar el proceso de registro. 
+---
+= Flujo de trabajo para empezar
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Para comenzar a usar SaaS Backup para Microsoft 365, debe hacer lo siguiente:
+
+. Decidir si utilizará el almacenamiento de Amazon S3 o Azure Blob que proporciona SaaS Backup.
++
+link:concept_storage_types.html["Tipos de almacenamiento que se pueden utilizar con SaaS Backup"].
+
+. link:task_creating_msservice_account_with_global_permissions.html["Cree una cuenta de servicio de MS Office con permisos globales"].
+. Si es necesario, link:task_configuring_impersonation.html["Configurar Impersonation para Microsoft Exchange Online"].
+. link:task_signing_up_for_saasbkup_paid_subscription.html["Regístrese para SaaS Backup para Microsoft 365"] Uso de su cuenta de Microsoft 365 o su cuenta de SSO de NetApp.
+. link:task_scheduling_first_backup.html["Programe su primera copia de seguridad"]
+. link:task_performing_immediate_backup_of_policy.html["Opcional: Realice inmediatamente un backup de sus datos"]
+
+
+image:O365_workflow_paid_subscription_signup.gif["flujo de trabajo del proceso de registro de suscripción de pago"]

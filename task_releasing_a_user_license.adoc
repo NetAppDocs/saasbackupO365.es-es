@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_releasing_a_user_license.html 
+keywords: netapp, saas backup, release, releasing, reassigned, user, license, shared, regular, archive, mailbox 
+summary: Cualquier usuario habitual o de buzón de archivo, tanto si está protegido como si no, consume una licencia. Si ya no se necesita una licencia para un usuario concreto, puede liberar la licencia para que pueda reasignarse. 
+---
+= Liberar una licencia de usuario
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cualquier usuario habitual o de buzón de archivo, tanto si está protegido como si no, consume una licencia. Si ya no se necesita una licencia para un usuario concreto, puede liberar la licencia para que pueda reasignarse. Cuando se libera una licencia de usuario, se mueve al nivel sin protección y se suspenden las copias de seguridad de ese usuario.
+
+
+NOTE: Los buzones compartidos no consumen una licencia.
+
+.Pasos
+. Haga clic en image:configure_icon.gif["Captura de pantalla del icono de configuración"] Junto a su ID de usuario de SaaS Backup en la esquina superior izquierda.
+. Seleccione *AJUSTES DE CUENTA*.
+. HAGA CLIC EN *RETENER Y PURGAR*.
+. En *Licencia de lanzamiento*, comience a escribir el nombre de cuenta del usuario cuya licencia desea liberar.
+. Cuando encuentre la cuenta, selecciónela de la lista que se completa automáticamente y haga clic en image:bluecircle_icon.gif["Icono de signo más azul"].
+. Agregue cuentas adicionales, si es necesario.
+. Haga clic en *liberar*.
+. Haga clic en *Sí, libere la(s) licencia(s)*.
+. Haga clic en *Confirmar*.
+

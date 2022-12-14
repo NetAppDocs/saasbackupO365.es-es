@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_restore_file_locations.html 
+keywords: netapp, saas backup, microsoft 365, find, viewing, jobs, log, restore, file, locations 
+summary: Es posible descargar un registro del título y la ubicación de los archivos y las carpetas restaurados. 
+---
+= Busque los archivos restaurados
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cuando se restauran algunos archivos o carpetas, estos se almacenan en una carpeta de restauración recién creada. Para ayudarle a encontrar fácilmente los elementos restaurados, puede descargar un archivo de Excel con los nombres y ubicaciones de los archivos y carpetas restaurados.
+
+.Pasos
+. Haga clic en image:jobs_button.gif["Captura de pantalla del botón trabajos"] en el panel de navegación de la izquierda.
+. En *trabajos completados recientes*, haga clic en el trabajo para el que desea buscar archivos restaurados.
+. Haga clic en *Descargar* en la esquina superior derecha. Un archivo de Excel se descarga localmente con los nombres y ubicaciones de los archivos restaurados para el trabajo específico.
+

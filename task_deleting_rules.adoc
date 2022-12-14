@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_deleting_rules.html 
+keywords: netapp, saas backup, microsoft 365, delete, deleting, removing, rules 
+summary: Si ya no necesita una regla existente, puede eliminarla. Además, si necesita eliminar un grupo de seguridad que se utiliza en una regla, debe eliminar la regla que utiliza el grupo de seguridad antes de poder eliminar el grupo de seguridad. 
+---
+= Eliminar reglas
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si ya no necesita una regla existente, puede eliminarla. Además, si necesita eliminar un grupo de seguridad que se utiliza en una regla, debe eliminar la regla que utiliza el grupo de seguridad antes de poder eliminar el grupo de seguridad.
+
+.Pasos
+. En el panel de control, haga clic en el número que aparece arriba * UNPROTECTED* en el cuadro del servicio para el que desea crear reglas.
++
+image:number_protected_unprotected.gif[""]
+
+. Haga clic en *filtro*.
++
+image:filter.gif["Captura de pantalla del botón de menú desplegable de filtro"]
+
+. Haga clic en *Reglas*. Se muestran las reglas existentes.
+. Haga clic en image:trash_can_icon.gif["Captura de pantalla del icono de eliminación"] para eliminar la regla. El estado de los elementos a los que se aplica previamente la regla no cambia cuando se elimina la regla.
+

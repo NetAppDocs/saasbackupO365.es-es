@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: task_creating_rules.html 
+keywords: netapp, saas backup, microsoft 365, create, creating, rules, user, users, applied 
+summary: Las reglas permiten mover automáticamente usuarios a un nivel de backup preseleccionado en función de criterios predefinidos. 
+---
+= Crear nuevas reglas
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Las reglas permiten mover automáticamente usuarios a un nivel de backup preseleccionado en función de criterios predefinidos.
+
+Puede crear reglas para Microsoft Exchange Online, OneDrive para la Empresa, SharePoint Online y grupos de Microsoft Office 365.
+
+Debe aplicar un filtro definido por el usuario a los datos antes de poder crear una regla. Los filtros aplicados se muestran debajo del icono *filtro*. Los filtros predeterminados de NetApp SaaS Backup para Microsoft 365 aparecen en gris. Los filtros definidos por el usuario aparecen en azul claro.image:rules.gif["Ejemplo de filtro definido por el usuario y filtro definido por SaaS Backup para crear reglas"]
+
+<<task_creating_user_defined_filter.adoc#creating-user-defined-filter,Crear un filtro definido por el usuario>>
+
+Puede crear varias reglas. Las reglas se aplican en el orden en que aparecen en la lista *Administrar reglas*.
+
+.Pasos
+. En el panel de control, haga clic en el número que aparece arriba * UNPROTECTED* en el cuadro del servicio para el que desea crear reglas.
++
+image:number_protected_unprotected.gif[""]
+
++
+Si no se aplica ningún filtro creado por el usuario, image:create_rule.gif["Captura de pantalla del botón Crear regla"] no aparece.
+
+. Haga clic en *filtro*.
++
+image:filter.gif["Botón filtro"]
+
+. Haga clic en el menú desplegable *Seleccionar* y seleccione su filtro. Aparecerá un campo de búsqueda.
+. Introduzca sus criterios de búsqueda.
+. Haga clic en *aplicar filtro*.
+. Haga clic en *Crear regla*.
+. Escriba un nombre para la regla.
+. Para *Grupo de destino*, seleccione el nivel al que desea que se muevan los usuarios que cumplan los criterios de la regla.
+. Seleccione *aplicar a los elementos existentes* si desea que la regla se aplique inmediatamente a todos los elementos no protegidos. Si no está seleccionada, la regla se aplica a los elementos recién descubiertos y a los elementos no protegidos la próxima vez que se detecten nuevos elementos.
+. Si tiene varias reglas, puede hacer clic en image:up_down_rules_icon.gif["Botón para mover reglas hacia arriba o hacia abajo en prioridad"] para mover una regla hacia arriba o hacia abajo en la lista. Las reglas se aplican en el orden en que aparecen en la lista.
+

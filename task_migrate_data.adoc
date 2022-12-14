@@ -1,0 +1,85 @@
+---
+sidebar: sidebar 
+permalink: task_migrate_data.html 
+keywords: netapp, saas backup, microsoft office 365, sharepoint, onedrive for business, exchange, groups, migrate, data, export 
+summary: Como preparación al final de su licencia con SaaS Backup para Microsoft 365, puede solicitar la migración de datos a Amazon S3 o a Microsoft Azure Blob Storage. 
+---
+= Migración de datos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Para prepararse para el fin de su licencia con SaaS Backup para Microsoft 365, puede solicitar una migración de datos desde Amazon S3 a un almacenamiento de Amazon S3 de propiedad inquilino o desde Microsoft Azure Blob a Microsoft Azure Blob Storage.
+
+
+NOTE: No se admite la migración cruzada de Amazon S3 a un almacenamiento de Microsoft Azure Blob o de Microsoft Azure Blob a Amazon S3.
+
+Una vez completada la migración de datos, puede exportar los datos mediante la herramienta de exportación masiva de SaaS Backup de NetApp. Inicie sesión en link:https://mysupport.netapp.com/site/tools["La página de herramientas de soporte de NetApp"] Y busque la herramienta de exportación masiva de backup de NetApp SaaS.
+
+
+NOTE: La migración de datos es una actividad que no requiere ninguna licencia. Todos los inquilinos deben evitar cualquier forma de actividad en sus cuentas de SaaS Backup para evitar las discrepancias de los datos y los metadatos durante la migración de datos. Cuando se complete la migración de datos, se deshabilitarán todos los backups programados para el inquilino.
+
+*Requisito*: Para solicitar la migración de datos, inicie sesión con credenciales de cuenta de inquilino con permisos de administrador global. Otras funciones de usuario no podrán acceder a la ficha migración de datos en la interfaz de usuario.
+
+*Recomendación*: Debe suministrar el almacenamiento de destino con capacidad suficiente para almacenar todos los datos de los clientes y agregar un 10% más de capacidad como búfer para el almacenamiento de metadatos.
+
+.Pasos
+. Vaya a *Configuración de cuenta* image:gear_icon.png["icono de marcha"].
+. Seleccione la ficha *migración de datos*.
+. En *Detalles de almacenamiento*, introduzca información en los campos:
++
+[cols="20,20"]
+|===
+| Amazon S3 | Microsoft Azure 
+
+
+| Nombre del bloque | Nombre de cuenta 
+
+
+| Región | Nombre del contenedor 
+
+
+| Clave de acceso | Punto de acceso 
+
+
+| Clave secreta | Clave de acceso 
+
+
+|  | Región 
+|===
++
+
+NOTE: Los usuarios de Microsoft Azure deben establecer el nivel de acceso público en "Blob" para el contenedor proporcionado en Storage Details.
+
+. Seleccione *probar conexión*.
++
+Una Marca de verificación verde indica que la conexión está en buen estado.
+
+. En *consentimiento*, seleccione la casilla para aceptar los términos y condiciones de la migración de datos y seleccione *Enviar*.
++
+Los detalles se han guardado correctamente. El ID de inquilino ahora está visible en *Estado de migración*.
+
++
+
+TIP: Necesitará el ID de inquilino cuando exporte los datos con la herramienta de exportación masiva de SaaS Backup de NetApp.
+
+
+
+*Los pasos adicionales para SaaS Backup siempre que Amazon S3 cubiletes* después de proporcionar consentimiento, política y política Nota ahora aparecen a continuación de consentimiento. Siga los siguientes pasos para completar la solicitud de migración de datos.
+
+. Verifique y copie la política.
++
+image:policy-note-variables.png["Política de copia con variables de destino y de usuario IAM resaltadas"]
+
+. Vaya a su cuenta de Amazon S3.
+. Adjunte la política proporcionada en *Detalles del almacenamiento* al bloque de destino de Amazon S3.
+. Vuelva a la ficha *migración de datos* en *Configuración de cuenta* en SaaS Backup para Microsoft 365.
+. En *confirmación de directiva*, seleccione la casilla para confirmar que ha cargado la directiva en el bloque de destino y seleccione *Enviar*. Una Marca de verificación verde indica que la solicitud de migración de datos se ha completado y que la migración de datos ahora se encuentra en cola.
+
+
+Consulte *Estado de la migración* para supervisar el progreso de la migración. La duración de la migración depende de varios factores, como la cantidad de datos y el número de licencias que tenga.

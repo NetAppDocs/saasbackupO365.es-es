@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: task_restoring_from_previous_backup.html 
+keywords: netapp, saas restore, restoring, microsoft 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes 
+summary: De forma predeterminada, solo está disponible la copia de seguridad más reciente para restaurar. 
+---
+= Restaurar desde una copia de seguridad anterior
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+De forma predeterminada, solo está disponible la copia de seguridad más reciente para restaurar.
+
+.Pasos
+. En el Panel de control, haga clic en el cuadro número * PROTEGIDO* del servicio para el que desea realizar la restauración.
++
+** Para buzones compartidos, haga clic en la ficha *COMPARTIDO*.
+** Para los buzones de correo de archivo, haga clic en la ficha *ARCHIVO*. Nota: Los buzones de correo archivados se restauran en el buzón normal del usuario.
+** Para buzones normales, permanezca en la pestaña *USUARIO*.
+
+
+. Haga clic en el elemento que desea restaurar.
+. Haga clic en *Ver historial de copias de seguridad*.
++
+Se muestra un calendario. Las fechas para las que están disponibles las copias de seguridad se indican mediante un círculo verde.
+
+. Si desea mostrar los elementos de los que se ha realizado una copia de seguridad durante un número de días seleccionado, haga clic en *Mostrar copias de seguridad seleccionadas* y seleccione uno de los días predefinidos en el menú desplegable.
+. De lo contrario, haga clic en la fecha del backup que desea restaurar y, a continuación, seleccione el backup específico.
+. Seleccione los elementos que desea restaurar.
+. Haga clic en image:restore.gif["imagen del botón de restauración"]
+. Seleccione una opción de restauración:
++
+.. Si va a restaurar buzones para *Microsoft Exchange Online* o un buzón para un grupo de Microsoft 365, seleccione una de las siguientes opciones:
++
+*** *Restaurar en el mismo buzón*
++
+Si va a restaurar en el mismo buzón, de forma predeterminada, se creará una carpeta de restauración con la fecha y hora actuales en la ubicación de contenido original que contiene la copia de seguridad. Si selecciona *sustituir el contenido existente*, los datos actuales se sustituyen por completo por la copia de seguridad.
+
+*** *Restaurar a otro buzón*
++
+Si restaura a otro buzón, debe introducir el buzón de destino en el campo de búsqueda. Puede escribir una parte de la dirección de correo electrónico de destino en el campo de búsqueda para iniciar una búsqueda automática de buzones de destino coincidentes.
+
+
+
+.. Si va a restaurar MySites para *Microsoft OneDrive for Business*, seleccione una de las siguientes opciones:
++
+*** *Restaurar en el mismo MySite*
++
+Si va a restaurar archivos individuales en el mismo MySite, de forma predeterminada, se creará una carpeta de restauración con la fecha y hora actuales en la ubicación de contenido original que contiene la copia de seguridad. Si selecciona *sustituir el contenido existente*, los datos actuales se sustituyen por completo por la copia de seguridad. Si va a restaurar una carpeta completa, la opción de *sustituir el contenido existente* no está disponible.
+
+*** *Restaurar a otro MySite*
++
+Si restaura a un MySite diferente, debe introducir el MySite de destino en el campo de búsqueda. Puede escribir una parte del MySite de destino en el campo de búsqueda para iniciar una búsqueda automática para el destino coincidente MySites.
+
+
+
+.. Si va a restaurar sitios para *Microsoft SharePoint Online*, puede restaurar en el mismo sitio o en otro sitio. Si va a restaurar un sitio de grupo de Microsoft 365, sólo puede restaurar en el mismo sitio.
++
+*** *Restaurar en el mismo sitio*
++
+Si restaura en el mismo sitio, de forma predeterminada, se creará una carpeta de restauración con la fecha y hora actuales en la ubicación del archivo original que contiene la copia de seguridad. Si selecciona la opción *Sobrescribir con combinación*, no se crea ninguna carpeta de restauración. Si la versión del archivo de copia de seguridad y el archivo actual coinciden, la copia de seguridad se restaura a la ubicación original. Cualquier contenido nuevo en el destino se ignora y no se ve afectado. Por ejemplo, si la copia de seguridad contiene File1 versión 5 y el destino contiene File1 versión 6, se produce un error en una restauración con la opción *Sobrescribir con Merge* seleccionada. Si selecciona la opción *sustituir el contenido existente*, la versión actual de los datos se sustituye por completo por la copia de seguridad.
+
+*** *Restaurar en un sitio diferente*
++
+Si restaura a un sitio diferente, debe introducir el sitio de destino en el campo de búsqueda. Puede escribir una parte del sitio de destino en el campo de búsqueda para iniciar una búsqueda automática de sitios coincidentes.
+
+
+
+
+
+. Haga clic en *Confirmar*.
++
+Aparece un mensaje que indica que el trabajo de restauración se ha creado.
+
+. Haga clic en *Ver el progreso del trabajo* para controlar el progreso de la restauración.
+

@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: task_granting_permissions_to_enable_shared_mailboxes.html 
+keywords: netapp, saas backup, microsoft 365, grant, granting, permissions, enabling, shared, mailboxes, azure, grant, shared 
+summary: Dentro de NetApp SaaS Backup para Microsoft 365, puede conceder permisos para habilitar los buzones compartidos. 
+---
+= Conceda permisos para habilitar buzones compartidos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede conceder permisos para habilitar los buzones compartidos dentro de NetApp SaaS Backup para Microsoft 365.
+
+.Pasos
+. Haga clic en image:services.gif["Captura de pantalla del botón Servicios"] en el panel de navegación de la izquierda.
+. Haga clic en el vínculo de Microsoft 365.
++
+image:mso365_settings.gif["Captura de pantalla del botón Microsoft 365"]
+
+. Haga clic en *conceder consentimiento*.
++
+image:grant_consent.gif["Captura de pantalla del icono de consentimiento de concesión"]
+
++
+Se le redirigirá a la página de autorización de Azure para la autenticación.
+
+. Seleccione su cuenta de inquilino.
+. *Acepte* los permisos. Los buzones compartidos se descubrirán durante la próxima programación * sincronización automática* o puede realizar una *sincronización ahora*. Si *Sincronizar ahora*, tardará unos minutos en descubrirse sus buzones compartidos.
+. Para acceder a los buzones compartidos después de *sincronización automática* o *sincronización ahora* haga lo siguiente:
++
+.. Haga clic en image:services.gif["Captura de pantalla del botón Servicios"] en el panel de navegación de la izquierda.
+.. Haga clic en *Microsoft Exchange Online*.
+.. Haga clic en el número de buzones no protegidos.
+.. Haga clic en la ficha *compartido*.
+
+
+

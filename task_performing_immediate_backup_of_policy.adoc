@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_performing_immediate_backup_of_policy.html 
+keywords: netapp, saas backup, microsoft 365, getting started, perform, performing, immediate, backup, backup policy 
+summary: El primer paso con SaaS Backup para Microsoft 365 incluye decidir qué tipo de almacenamiento desea usar para hacer backups de los datos, recopilar información pertinente, crear una cuenta de servicio de Microsoft 365 y asignar permisos de usuario. 
+---
+= Realizar un backup inmediato de una normativa de backup específica
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cuando configura SaaS Backup para Microsoft 365, de forma predeterminada, todos sus datos están desprotegidos. Tras mover los datos a un nivel protegido, puede realizar un backup inmediato del nivel al que se movieron los datos. De este modo, se evita que los datos estén en riesgo hasta que se realice la primera copia de seguridad programada. Si puede esperar hasta el primer backup programado, por lo que no es necesario realizar un backup inmediato.
+
+Puede realizar un backup inmediato siempre que considere necesario para la protección de datos. Si está ejecutando una versión de prueba de SaaS Backup para Microsoft 365, solo puede realizar tres copias de seguridad inmediatas por día, por servicio.
+
+.Pasos
+. En la consola, seleccione el servicio para el que desea ejecutar un backup inmediato.
+. En *políticas de copia de seguridad*, haga clic en el nivel del que desea realizar la copia de seguridad.
+. Haga clic en Backup Now.
++
+image:backup_now.gif["Captura de pantalla del botón \"Backup Now\" de SaaS Backup"]
+
++
+Aparece un mensaje que indica que los servicios del nivel seleccionado se colocan en la cola de trabajos para realizar un backup inmediato.
+
+. Haga clic en *Confirmar*. Aparece un mensaje que indica que el trabajo de backup se ha creado.
+. Haga clic en *Ver el progreso del trabajo* para controlar el progreso de la copia de seguridad.
+

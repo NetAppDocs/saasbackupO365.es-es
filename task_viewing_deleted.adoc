@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_deleted.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deleted, items, SharePoint, Exchange, OneDrive, Groups, Teams 
+summary: Puede ver los elementos eliminados de todos los servicios si activa elementos eliminados de la configuración del servicio. 
+---
+= Ver los elementos eliminados
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede ver los elementos eliminados en todos los servicios en cualquier momento activando *Mostrar elementos eliminados* en Configuración de servicio. Esto le ayuda a ahorrar tiempo; en lugar de explorar diferentes copias de seguridad para los elementos eliminados, active el conmutador para buscar inmediatamente los elementos eliminados.
+
+De forma predeterminada, el interruptor está desactivado.
+
+.Pasos
+. Haga clic en *SERVICIOS* en el panel de navegación de la izquierda.
+. Haga clic en el icono Configuración image:settings_icon.gif["La imagen muestra el icono de configuración"].
++
+image:show_deleted_items_switch_off.gif["La imagen muestra el apagado de los elementos eliminados"]
+
+. Active el interruptor *Mostrar elementos eliminados*.
++
+image:show_deleted_items_switch_on.gif["La imagen muestra el interruptor de elementos eliminados encendido y la configuración de copia de seguridad actualizada"]
+
+. Haga clic en *trabajos* en el panel de navegación de la izquierda.
+. Abra la copia de seguridad más reciente para ver los elementos eliminados.
+

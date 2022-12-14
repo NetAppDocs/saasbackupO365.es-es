@@ -1,0 +1,73 @@
+---
+sidebar: sidebar 
+permalink: reference_teams_data_locations.html 
+keywords: netapp, saas backup, microsoft 365, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files 
+summary: Una tabla de referencia muestra dónde ubicar los datos de los equipos en SaaS Backup. 
+---
+= Ubicaciones de datos de equipos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Los datos de los equipos de Microsoft tienen ubicaciones distintas en SaaS Backup para Microsoft 365.
+
+La tabla muestra dónde se deben ubicar los datos de los equipos en SaaS Backup.
+
+[cols="12,64a"]
+|===
+| Datos de equipos | ¿Dónde está en SaaS Backup? 
+
+
+| Correo electrónico de los equipos  a| 
+Microsoft 365 grupos > equipos > SampleTeam > Buzón de correo
+
+
+
+| Canales de equipos  a| 
+Microsoft 365 grupos > equipos > SampleTeam > Canales
+
+
+
+| Equipos Documentos de canal estándar  a| 
+Microsoft 365 grupos > equipos > SampleTeam > Sitio de SharePoint > Documentos > SampleTeam-StdChannel
+
+
+
+| Equipos Standard Channel Chat  a| 
+* Microsoft 365 grupos > equipos > SampleTeam > Buzón de correo > conversaciones > Chat de equipo
+* Microsoft 365 grupos > equipos > SampleTeam > Buzón de correo > Historial de conversaciones > Chat de equipo (ubicación real)
+
+
+
+
+| Documentos de canal privados de equipos  a| 
+SharePoint > SampleTeam – SampleTeam-PrivChannel > Documentos > SampleTeam-PrivChannel
+
+
+NOTE: Encontrará una colección de sitios independiente con el nombre “<Your Team Name – Private Channel Name>”. Puede filtrar estas colecciones de sitios con el ID de plantilla: TEACHANNEL#0.
+
+
+
+| Equipos Chat de canal privado  a| 
+* Exchange > “Usuario en canal privado” > correo > conversaciones > Chat de equipo
+* Exchange > “Usuario en canal privado” > correo > Historial de conversaciones > Chat de equipo (ubicación real)
+
+
+
+
+| Chat de usuarios individuales y chats de grupo  a| 
+* Exchange > “Usuario” > correo > conversaciones > Chat de equipo
+* Exchange > “Usuario” > correo > Historial de conversaciones > Chat de equipo (ubicación real)
+
+
+
+
+| Archivos compartidos en chat de usuario individual y en grupos de caracteres  a| 
+OneDrive > “Usuario” > Archivos > Archivos de chat de equipos de Microsoft
+
+|===

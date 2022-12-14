@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_deactivating_a_service.html 
+keywords: netapp, saas backup, microsoft 365, service, deactivate, deactivation, deactivating 
+summary: Si desactiva un servicio, se eliminan todas las programaciones asociadas a ese servicio y no se realiza ningún backup más. Aún puede ver el último backup que ha ocurrido antes de la desactivación y, además, puede seguir realizando restauraciones. 
+---
+= Desactivar un servicio
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si es necesario, puede desactivar uno o varios de sus servicios SaaS Backup para Microsoft 365. Si desactiva un servicio, se eliminan todas las programaciones asociadas a ese servicio y no se realiza ningún backup más. Aún puede ver el último backup que ha ocurrido antes de la desactivación y, además, puede seguir realizando restauraciones.
+
+.Pasos
+. Haga clic en image:services.gif["Captura de pantalla del botón Servicios"] en el panel de navegación de la izquierda.
+. Haga clic en el vínculo de Microsoft 365.
++
+image:mso365_settings.gif["Captura de pantalla del botón Microsoft 365"]
+
+. Haga clic en image:deactivate.gif["Captura de pantalla del botón de desactivación"] junto al servicio que desea desactivar.
+. Haga clic en *Confirmar*.
+

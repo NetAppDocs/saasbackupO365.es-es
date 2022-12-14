@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: task_deleting_admin_roles_from_a_user_account.html 
+keywords: netapp, saas backup, microsoft 365, delete, deleted, deleting, role-based accounts, administrative roles, privileges, removing 
+summary: Si todas las funciones administrativas se eliminan de una cuenta de usuario, el usuario se cerrará automáticamente la sesión de SaaS Backup para Microsoft 365. 
+---
+= Eliminar todas las funciones administrativas de una cuenta de usuario
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si todas las funciones administrativas se eliminan de una cuenta de usuario, el usuario se cerrará automáticamente la sesión de SaaS Backup para Microsoft 365.
+
+.Pasos
+. Haga clic en el icono de configuración image:configure_icon.gif["Captura de pantalla del icono de configuración"] Junto a su ID de usuario en la parte superior izquierda de la pantalla.
+. Haga clic en *CONFIGURACIÓN de LA CUENTA*.
+. Haga clic en *ADMINISTRACIÓN DE ROLES*.
+. Haga clic en *Eliminar usuario* junto al nombre de usuario que desea eliminar.
+. Haga clic en *Sí*.
+

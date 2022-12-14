@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_discovering_new.html 
+keywords: netapp, saas backup, microsoft 365, discover, discovery, discovering, new, mailboxes, sites, groups, teams, shared, archive 
+summary: En NetApp SaaS Backup para Microsoft 365 puede gestionar sus cuentas de servicio, descubrir cuentas recién añadidas y establecer notificaciones de cuenta. 
+---
+= Descubra nuevos buzones, sitios y grupos
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Se debe realizar una sincronización entre SaaS Backup y su cuenta de Microsoft 365 para que los nuevos buzones (incluidos los buzones compartidos y los de archivado), los sitios, los grupos y los equipos sean descubiertos por SaaS Backup. De forma predeterminada, la sincronización se realiza automáticamente una vez cada 24 horas. Sin embargo, si realiza cambios y desea que el descubrimiento se produzca antes de la próxima sincronización programada *Auto Sync*, puede iniciar una sincronización inmediata.
+
+.Pasos
+. Haga clic en image:services.gif["Captura de pantalla del botón Servicios"] en el panel de navegación de la izquierda.
+. Haga clic en el icono Configuración de Microsoft 365.image:mso365_settings.gif["Captura de pantalla del botón Microsoft 365"]
+. Haga clic en *Sincronizar ahora* junto al servicio que desee sincronizar.image:sync_now.png[""]Nuevos usuarios, buzones compartidos y buzones de correo de archivo se detectan y añaden en estado no protegido. Si desea que se realice un backup de los usuarios recién detectados, los buzones compartidos o los buzones de archivado, debe cambiar la política de backup de los usuarios de los que no estén protegidos a uno de los grupos de niveles predefinidos.
+. Haga clic en *Confirmar*.
+. Haga clic en *Ver el progreso del trabajo* para controlar el progreso. Una vez completado el trabajo, puede hacer clic en el trabajo en *trabajos completados recientes* para ver el número de usuarios que se agregaron o eliminaron durante la sincronización. Los cambios realizados en las cuentas de usuario se indican del siguiente modo:
++
+** *Los usuarios redescubiertos* indican el número de cuentas de usuario que no han cambiado.
+** *Desactivado* los usuarios indican el número de cuentas de usuario eliminadas.
+** *Nuevos usuarios* indican el número de nuevas cuentas de usuario.
+
+
+

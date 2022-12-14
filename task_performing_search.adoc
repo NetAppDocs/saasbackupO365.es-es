@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: task_performing_search.html 
+keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange, sharePoint, oneDrive, online 
+summary: Puede usar la búsqueda en línea para buscar contenido específico. 
+---
+= Realizar una búsqueda
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+En SaaS Backup para Microsoft 365, puede buscar sus datos protegidos en todos los servicios: Exchange Online, SharePoint Online, OneDrive para la Empresa, y grupos y equipos.
+
+Puede buscar instancias sin protección, pero sólo obtendrá resultados de búsqueda si se han realizado backups anteriores.
+
+Para mejorar los resultados de su búsqueda, siga estos criterios:
+
+* Mínimo de tres caracteres
+
+
+
+NOTE: Si introduce más de 3 caracteres 3, los resultados de búsqueda anteriores pueden permanecer en los resultados de la búsqueda.
+
+* Entrada alfanumérica
+* Comillas simples para una coincidencia exacta de una palabra, cadena de palabras o número. Ej.: “Presupuesto de 2014”.
+
+
+Siga estos pasos para buscar sus instancias protegidas.
+
+.Pasos
+. En el panel de control, haga clic en el número que aparece arriba * Protected* en cualquier servicio en el que desee buscar.image:number_protected_unprotected_highlight_protected.gif["captura de pantalla de instancias protegidas resaltadas"]
+. Busque el cuadro de búsqueda en la esquina superior derecha de la página.image:search_box_exchange.png["Captura de pantalla del cuadro de búsqueda en Exchange Online"]
++
+A continuación, introduzca la información que aparece en el cuadro de búsqueda, como “nombre” o “correo electrónico” en el cuadro de búsqueda.image:search_box_exchange_prompts.png["Captura de pantalla del cuadro de búsqueda con las solicitudes de búsqueda en Exchange Online"]
+
++
+.. Buscar por nombre o dirección de correo electrónico para Microsoft Exchange Online.
+.. Busque por nombre, correo electrónico o MySite para Microsoft OneDrive para la Empresa.
+.. Busque por nombre de sitio o URL para Microsoft SharePoint Online.
+.. Busque por nombre de grupo o nombre de equipo para grupos y equipos de Microsoft 365.
+
+
+. Se mostrarán todos los resultados que coincidan con los criterios de búsqueda.
+
+
+También puede realizar una búsqueda en niveles más granulares dentro de cada servicio. Si ve un menú desplegable a la derecha del cuadro de búsqueda, seleccione *Archivo* o *carpeta* en el menú desplegable para restringir los resultados de la búsqueda.
+
+image:search_box_dropdown_menu_file&folder.png["cuadro de búsqueda con el menú desplegable de archivo/carpeta"]

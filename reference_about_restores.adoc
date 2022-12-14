@@ -1,0 +1,347 @@
+---
+sidebar: sidebar 
+permalink: reference_about_restores.html 
+keywords: netapp, saas backup, microsoft 365, restores, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files 
+summary: SaaS Backup para Microsoft 365 ofrece opciones de restauración de nivel alto y granular para cada servicio. 
+---
+= Acerca de las restauraciones
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Con SaaS Backup para Microsoft 365, puede llevar a cabo restauraciones de alto nivel y granulares para Exchange Online, SharePoint Online, OneDrive para la Empresa, y grupos y equipos de Microsoft 365.
+
+Aprenda a realizar restauraciones de alto nivel y nivel granular:
+
+* link:task_performing_high_level_restore.html["Realizar una restauración de alto nivel"]
+* link:task_performing_granular_level_restore_exchange.html["Realice una restauración de nivel granular para Exchange Online"]
+* link:task_performing_granular_level_restore_sharepoint.html["Realizar una restauración de nivel granular para SharePoint Online"]
+* link:task_performing_granular_level_restore_onedrive.html["Realice una restauración de nivel granular para OneDrive para la Empresa"]
+* link:task_performing_granular_level_restore_teams.html["Realice una restauración de nivel granular para grupos y equipos"]
+
+
+En las siguientes tablas, se muestran las opciones de restauración de alto nivel compatibles por servicio y dónde encontrar los datos restaurados en SaaS Backup.
+
+
+NOTE: Cuando los datos se eliminen o se desaprovisionen, puede restaurarlos en otra ubicación (buzón, sitio, mística, grupo o equipo) o exportar los datos. No puede restaurar en la misma ubicación.
+
+
+
+== Exchange Online
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| Tipo de elemento | Restauración al mismo buzón | Restaurar a otro buzón | Exportar a PST | Dónde encontrarlo en SaaS Backup 
+
+
+ a| 
+Buzón individual
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| Exchange Online > buzones - usuarios/compartidos/Archivo 
+
+
+ a| 
+Varios buzones
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+No
+| Exchange Online > buzones - usuarios/compartidos/Archivo 
+
+
+ a| 
+Contenido del buzón
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| Exchange Online > buzones - usuarios/compartidos/Archivo > <User name> 
+|===
+
+
+== SharePoint online
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| Tipo de elemento | Restauración en el mismo sitio | Restaurar en otro sitio | Exportar datos | Dónde encontrarlo en SaaS Backup 
+
+
+ a| 
+Un único sitio de SharePoint
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| SharePoint Online > Sitios 
+
+
+ a| 
+Múltiples sitios de SharePoint
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+No
+| SharePoint Online > Sitios 
+
+
+ a| 
+Contenido del sitio de SharePoint
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| SharePoint Online > Sitios > <Site name> 
+
+
+ a| 
+Un único sitio de SharePoint con roles de restauración habilitados
+ a| 
+Sí
+ a| 
+No
+ a| 
+No
+| SharePoint Online > Sitios 
+
+
+ a| 
+Subsitio único
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| SharePoint Online > Sitios > <Site name> 
+
+
+ a| 
+Varios subsitios
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| SharePoint Online > Sitios > <Site name> 
+
+
+ a| 
+Contenido de subsitios de SharePoint
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| SharePoint Online > Sitios > <Site name> 
+
+
+ a| 
+Subsitio único o múltiple con roles habilitados para restauración únicamente
+ a| 
+Sí
+ a| 
+No
+ a| 
+No
+| SharePoint Online > Sitios > <Site name> 
+|===
+
+
+== OneDrive para la Empresa
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| Tipo de elemento | Restaurar en el mismo MySite | Restaurar a otro MySite | Exportar datos | Dónde encontrarlo en SaaS Backup 
+
+
+ a| 
+Unidad única
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| OneDrive para Empresas > MySites 
+
+
+ a| 
+Varias unidades
+ a| 
+No
+ a| 
+No
+ a| 
+No
+| OneDrive para Empresas > MySites 
+
+
+ a| 
+Contenido de una unidad única
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| OneDrive para la Empresa > MySites> <OneDrive user> 
+|===
+
+
+== Grupos
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| Tipo de elemento | Restaurar en el mismo grupo | Restaurar a otro grupo | Exportar datos | Dónde encontrarlo en SaaS Backup 
+
+
+ a| 
+Un solo grupo
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| Grupos de Office 365 > grupos 
+
+
+ a| 
+Varios grupos
+ a| 
+Sí
+ a| 
+No
+ a| 
+No
+| Grupos de Office 365 > grupos 
+
+
+ a| 
+Agrupar contenido
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| Grupos de Office 365 > grupos > <Group Name> 
+
+
+ a| 
+Contenido del buzón
+ a| 
+Sí
+ a| 
+No
+ a| 
+Sí
+| Grupos de Office 365 > grupos > (correo electrónico del grupo) > Nombre del grupo 
+
+
+ a| 
+Contenido de SharePoint
+ a| 
+Sí
+ a| 
+No
+ a| 
+Sí
+| Grupos de Office 365 > grupos > <Group name> <Site name> 
+|===
+
+
+== Equipos
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| Tipo de elemento | Restauración al mismo equipo | Restaurar a otro equipo | Exportar datos | Dónde encontrarlo en SaaS Backup 
+
+
+ a| 
+Un solo equipo
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| Office 365 grupos > equipos 
+
+
+ a| 
+Varios equipos
+ a| 
+Sí
+ a| 
+No
+ a| 
+No
+| Office 365 grupos > equipos 
+
+
+ a| 
+Contenido del equipo
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| Office 365 grupos > equipos > <Team name> 
+
+
+ a| 
+Contenido del buzón
+ a| 
+Sí
+ a| 
+No
+ a| 
+Sí
+| Office 365 grupos > equipos > (correo electrónico del equipo) > Nombre del equipo 
+
+
+ a| 
+Contenido de SharePoint
+ a| 
+Sí
+ a| 
+No
+ a| 
+Sí
+| Office 365 grupos > equipos > <Team name> <Site name> 
+
+
+ a| 
+Canales
+ a| 
+Sí
+ a| 
+No
+ a| 
+No
+| Office 365 grupos > equipos > (correo electrónico del equipo) 
+|===

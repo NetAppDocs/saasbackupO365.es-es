@@ -1,0 +1,66 @@
+---
+sidebar: sidebar 
+permalink: task_performing_immediate_backup_of_service.html 
+keywords: netapp, saas backup, microsoft 365, perform, performing, immediate, backup, service 
+summary: Según sea necesario, puede realizar un backup inmediato de cualquier servicio de Microsoft 365. 
+---
+= Realizar un backup inmediato de un servicio
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Según sea necesario, puede realizar un backup inmediato de cualquier servicio de Microsoft 365.
+
+.Pasos
+. En el Panel de control, haga clic en el número que aparece arriba * PROTECTED* en el cuadro del servicio para el que desea realizar una copia de seguridad inmediata.
+. Seleccione su opción de backup.
++
+.. Para Exchange
++
+*** Si está realizando una copia de seguridad de los buzones compartidos, haga clic en la ficha *COMPARTIDO*.
+*** Si va a realizar una copia de seguridad de los buzones de archivo, haga clic en la ficha *ARCHIVO*.
+*** Si está realizando una copia de seguridad de los buzones de correo normales, permanezca en la ficha *USUARIO*.
+
+
+.. Para SharePoint
++
+*** Si está realizando una copia de seguridad de los sitios, permanezca en la pestaña *SITES*.
+
+
+.. Para OneDrive
++
+*** Si está realizando una copia de seguridad de los usuarios, permanezca en la ficha *USER*.
+
+
+.. Para grupos de Microsoft 365
++
+*** Si está realizando una copia de seguridad de los grupos, permanezca en la ficha *GRUPOS*.
+*** Si está realizando una copia de seguridad de los equipos, haga clic en la ficha *EQUIPOS*.
++
+
+NOTE: Los mensajes de TeamsChat sólo se realizan una copia de seguridad si se activa TeamsChat en la configuración. Contacto link:https://mysupport.netapp.com/["Soporte técnico"] para habilitar esta función.
+
++
+
+NOTE: Debido a las limitaciones de API, el backup de SaaS no puede diferenciar entre canales públicos y privados.
+
+
+
+
+
+. Seleccione los elementos de los que desea realizar una copia de seguridad.
+. Haga clic en *copia de seguridad ahora*.
++
+image:backup_now.gif["Botón Backup Now"]
+
++
+Se mostrará un mensaje que indica que los servicios seleccionados se colocarán en la cola de trabajos para la copia de seguridad.
+
+. Haga clic en *Confirmar*. Aparece un mensaje que indica que el trabajo de backup se ha creado.
+. Haga clic en *Ver el progreso del trabajo* para controlar el progreso de la copia de seguridad.
+

@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: task_canceling_job.html 
+keywords: netapp, saas backup, microsoft 365, cancel, canceling, jobs, backup, restore, immediate 
+summary: Si inició una copia de seguridad inmediata o una restauración inmediata, pero necesita cancelarla antes de completarse, puede hacerlo. 
+---
+= Cancelar un trabajo
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si inició una copia de seguridad inmediata o una restauración inmediata, pero necesita cancelarla antes de completarse, puede hacerlo.
+
+.Pasos
+. Haga clic en image:jobs_button.gif["Captura de pantalla del botón trabajos"] en el panel de navegación de la izquierda.
+. En *trabajos recientes en ejecución*, haga clic en el trabajo que desea cancelar.
+. Haga clic en *Cancelar*. El progreso del trabajo cancelado se muestra en *trabajos completados recientes*.
+

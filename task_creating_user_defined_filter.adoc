@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: task_creating_user_defined_filter.html 
+keywords: netapp, saas backup, microsoft 365, create, creating, view, filtering, data, information, user defined filters, creating filters, search, viewing, job history, activity log, downloading log 
+summary: Puede filtrar la vista de sus buzones, sitios o MySites para mostrar sólo los resultados que se ajusten a criterios específicos. 
+---
+= Crear un filtro definido por el usuario
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede filtrar la vista de sus buzones, sitios o MySites para mostrar sólo los resultados que se ajusten a criterios específicos. Por ejemplo, puede configurar los filtros para que sólo vean buzones en un determinado país y un determinado departamento dentro de ese país.
+
+.Pasos
+. En el panel de control, haga clic en el número que aparece arriba * PROTECTED* o *UNPROTECTED* en el cuadro del servicio para el que desea crear un filtro. La cantidad ANTERIORMENTE PROTEGIDA indica la cantidad de buzones, MySites o grupos que están actualmente protegidos por una política de copia de seguridad. La cantidad anterior SIN PROTECCIÓN indica la cantidad de buzones, MySites o grupos que no están protegidos por una política de respaldo.
++
+image:number_protected_unprotected.gif[""]
+
+. Haga clic en *filtro*.
++
+image:filter.gif["Captura de pantalla del botón de menú desplegable de filtro"]
+
+. Haga clic en el menú desplegable *Select* y seleccione el filtro que desee.
++
+Para Microsoft SharePoint Online, puede filtrar por ID de plantilla. Puede introducir el ID de plantilla para buscarlo o seleccionarlo en el menú desplegable.
+
++
+Para todos los demás servicios, puede filtrar por grupo, país, oficina, departamento, cargo, dominio o país. Si tiene grupos de seguridad, también aparecen como opciones de filtrado.
+
++
+El segundo menú desplegable se rellena con selecciones basadas en el filtro que seleccione. Por ejemplo, si selecciona Group como primer filtro, puede seleccionar uno de los niveles de grupo de políticas de backup como filtro secundario.
+
++
+image:select_filter.gif["Captura de pantalla del primer conjunto de opciones de filtro"]
+
++
+Aparecerá un campo de búsqueda.
+
+. Introduzca sus criterios de búsqueda.
+. Si desea agregar más filtros, haga clic en *Agregar filtro* y realice su selección.
+. Haga clic en *aplicar filtro*. Se muestran los resultados del filtro.
+

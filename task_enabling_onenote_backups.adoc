@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_enabling_onenote_backups.html 
+keywords: netapp, saas backup, microsoft 365, backup, setting, enable, enabling, onenote 
+summary: Puede habilitar las copias de seguridad para los blocs de notas de OneNote. 
+---
+= Habilite las copias de seguridad para OneNote
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+De forma predeterminada, las copias de seguridad de los blocs de notas de OneNote están habilitadas para notas. Si desea realizar una copia de seguridad de los blocs de notas de OneNote, debe habilitar la copia de seguridad en el servicio deseado.
+
+.Pasos
+. Haga clic en *Servicios* en el panel de navegación de la izquierda.
++
+image:services.gif["Captura de pantalla del botón Servicios"]
+
+. Haga clic en Microsoft 365.
++
+image:mso365_settings.gif["Captura de pantalla del botón Microsoft 365"]
+
+. En *Administrar servicios*, haga clic en el icono de configuración de copia de seguridad image:configure_icon.gif["Captura de pantalla del icono de configuración"] junto al servicio que necesita actualizar.
++
+Aparecerá una lista de los ajustes de copia de seguridad disponibles para el servicio seleccionado.
+
+. SELECCIONE *HABILITAR COPIA DE SEGURIDAD DE ONENOTE*.
+. Haga clic en *Confirmar*. Los portátiles se incluirán en la siguiente copia de seguridad programada. Si desea que se realice un backup de inmediato, ejecute un link:task_performing_immediate_backup_of_service.html["copia de seguridad inmediata"].
+

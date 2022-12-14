@@ -1,0 +1,191 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_sharepoint.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft SharePoint Online, sites 
+summary: Puede utilizar SaaS Backup para Microsoft 365 para realizar restauraciones de nivel granular para Microsoft SharePoint Online. 
+---
+= Realizar una restauración de nivel granular para Microsoft SharePoint Online
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dentro de Microsoft SharePoint Online, puede restaurar elementos de nivel granular para un solo usuario, como carpetas o archivos individuales. También puede restaurar elementos de nivel granular para un sitio de grupo de Microsoft 365 y blocs de notas de OneNote. Los roles y permisos del sitio se protegen automáticamente como parte de una restauración o copia de seguridad.
+
+De forma predeterminada, solo el backup más reciente está disponible para restaurar. Otras opciones disponibles son:
+
+image:backup_for_restore_availability.png["Backups disponibles para restaurar"]
+
+En la tabla, se indican las opciones de restauración compatibles con los elementos a nivel granular.
+
+
+NOTE: Para las opciones de restauración *Restaurar en el mismo sitio* y *Restaurar en otro sitio*, los siguientes elementos restauran como subsitios en el sitio seleccionado con la convención de nomenclatura <sitename_cc_timestamp>: *Sitio único*, *múltiples sitios* y *Listas individuales/múltiples* si se seleccionan 3 o más listas.
+
+[cols="20,20a,20a,20a,40"]
+|===
+| Tipo de elemento | Restauración en el mismo sitio | Restaurar en otro sitio | Exportar datos | Dónde encontrarlo en SaaS Backup 
+
+
+| Elementos individuales/múltiples  a| 
+Sí
+ a| 
+Sí
+ a| 
+No
+| SharePoint Online > Sitios > <Site Name> > <List Name> 
+
+
+| Sitio único  a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| SharePoint Online > Sitios 
+
+
+| Múltiples sitios  a| 
+Sí
+ a| 
+Sí
+ a| 
+No
+| SharePoint Online > Sitios 
+
+
+| Sitios de comunicación  a| 
+No
+ a| 
+No
+ a| 
+No
+| SharePoint Online > Sitios 
+
+
+| Subsitios individuales o múltiples  a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| SharePoint Online > Sitios > <Site name> > subsitios 
+
+
+| Carpetas individuales o múltiples  a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| SharePoint Online > Sitios > <Site name> > <List name> 
+
+
+| Listas únicas o múltiples  a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| SharePoint Online > Sitios > <Site name> 
+
+
+| OneNote tiene un único bloc de notas o varios  a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| SharePoint Online > Sitios > <Site name> > <List name> 
+
+
+| OneNote grupos de una o varias secciones  a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+| SharePoint Online > Sitios > <Site name> > <List name> > <Notebook folder> 
+
+
+| OneNote secciones únicas o múltiples  a| 
+Sí
+ a| 
+Sí
+ a| 
+No
+| SharePoint Online > Sitios > <Site name> > <List name> > <Notebook folder> 
+|===
+.Pasos
+. En el Panel de control, haga clic en el número que aparece arriba * PROTECTED* en el cuadro de SharePoint.
+. Haga clic en el sitio para el que necesita realizar la restauración de nivel granular.
+. Seleccione la categoría que necesita restaurar.
++
+
+NOTE: Si desea restaurar elementos individuales específicos dentro de una categoría, haga clic en la categoría de contenido y, a continuación, seleccione los elementos individuales.
+
+. Para realizar la restauración desde la copia de seguridad más reciente, haga clic en *Restaurar*. Para restaurar una versión anterior del elemento, haga clic en *Mostrar versiones*, seleccione la versión que desea restaurar y, a continuación, haga clic en *Restaurar*.
+. Seleccione una opción de restauración:
++
+** *Restaurar en el mismo sitio* Si restaura en el mismo sitio, de forma predeterminada, se crea una carpeta de restauración con la Marca de fecha y hora actual en la ubicación del archivo original que contiene la copia de seguridad.
++
+Si selecciona *sólo funciones de restauración*, *Sobrescribir con combinación* o *sustituir el contenido existente*, la única opción de restauración es *Restaurar en el mismo sitio*.
+
++
+[cols="24a,24a"]
+|===
+| Si selecciona | Restauración en el mismo sitio 
+
+
+ a| 
+Restaurar solo roles
+ a| 
+todos los tipos de elementos
+
+
+
+ a| 
+Sobrescribir con combinación
+ a| 
+todos los elementos excepto el nivel de sitio
+
+
+
+ a| 
+Sustitúyala por contenido existente
+ a| 
+solo a nivel de elemento
+
+|===
++
+Si selecciona *sólo funciones de restauración*, sólo se restauran los roles y permisos.image:sharepoint_granular_restore_only_roles.png["La imagen muestra una ventana de restauración a nivel granular con la opción de sólo restaurar roles seleccionada"]
+
++
+Si selecciona la opción *Sobrescribir con combinación*, no se crea ninguna carpeta de restauración. Si la versión del archivo de copia de seguridad y el archivo actual coinciden, la copia de seguridad se restaura a la ubicación original. Cualquier contenido nuevo en el destino se ignora y no se ve afectado. Por ejemplo, si la copia de seguridad contiene File1 versión 5 y el destino contiene File1 versión 6, se produce un error en una restauración con la opción *Sobrescribir con Merge* seleccionada.
+
++
+Si selecciona la opción *sustituir el contenido existente*, la versión actual de los datos se sustituye por completo por la copia de seguridad.
+
+** *Restaurar en otro sitio*
++
+Si restaura a otro sitio, debe introducir el sitio de destino en el campo de búsqueda. Puede escribir una parte del sitio en el campo de búsqueda para iniciar una búsqueda automática de sitios coincidentes.
+
+** *Datos de exportación*
++
+Si exporta datos, debe descargarla. Vaya a *Informes* en el menú de la izquierda. Busque el trabajo de datos de exportación. Haga clic en *total carpetas*. A continuación, haga clic en *Exportar enlace de descarga de datos*. Se descarga un archivo zip. Abra el archivo zip para extraer los datos.
+
++
+
+NOTE: Si selecciona la opción de restauración *Exportar datos*, el enlace proporcionado es válido durante siete días y se autentica previamente.
+
+
+
+. Haga clic en *Confirmar*.
++
+Aparece un mensaje que indica que el trabajo de restauración se ha creado.
+
+. Haga clic en *Ver el progreso del trabajo* para controlar el progreso de la restauración.
+

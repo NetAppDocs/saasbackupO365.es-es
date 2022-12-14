@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_deprovisioned.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deprovisioned, deleted, accounts, mailboxes, sites, mysites 
+summary: Puede ver una lista de buzones o cuentas de usuario que se hayan eliminado. 
+---
+= Ver una lista de elementos desaprovisionados
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puede ver una lista de buzones o cuentas de usuario que se hayan desaprovisionado.
+
+.Pasos
+. Haga clic en *SERVICIOS* en el panel de navegación de la izquierda.
+. En el servicio deseado, haga clic en el número de elementos no protegidos.
+. Haga clic en la ficha *DEPROVISIONED*.
+

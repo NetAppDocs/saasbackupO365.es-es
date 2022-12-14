@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_assigning_admin_roles_to_user_accounts.html 
+keywords: netapp, saas backup, microsoft 365, assign, assigning, role-based accounts, administrative roles, privileges, granting, user, users, user accounts 
+summary: Puede asignar funciones administrativas a cuentas de usuario para otorgar privilegios administrativos a usuarios seleccionados para uno o más servicios. 
+---
+= Asigne funciones administrativas a las cuentas de usuario
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede asignar funciones administrativas a cuentas de usuario para otorgar privilegios administrativos a usuarios seleccionados para uno o más servicios.
+
+Es posible asignar los siguientes roles a los usuarios:
+
+* Inquilino global: Otorga privilegios de administración a todos los servicios, objetivo de almacenamiento y actualizaciones de licencias (renovación/actualización).
+* Administrador de Exchange: Sólo concede privilegios administrativos a Microsoft Exchange Online. No se pueden ver ni modificar otros servicios.
+* OneDrive Administrator: Otorga privilegios administrativos solo a Microsoft OneDrive para la Empresa. No se pueden ver ni modificar otros servicios.
+* Administrador de SharePoint: Sólo concede privilegios administrativos a Microsoft SharePoint Online. No se pueden ver ni modificar otros servicios.
+
+
+.Pasos
+. Haga clic en el icono de configuración image:configure_icon.gif["Captura de pantalla del icono de configuración"] Junto a su ID de usuario en la parte superior izquierda de la pantalla.
+. Haga clic en *CONFIGURACIÓN de LA CUENTA*.
+. Haga clic en *ADMINISTRACIÓN DE ROLES*.
+. Haga clic en la image:bluecircle_icon.gif["Captura de pantalla del icono hecho clic para mostrar las opciones de función del usuario"] .
+. Introduzca la dirección de correo electrónico del usuario que desea añadir.
+. Haga clic en el menú desplegable para seleccionar el rol. Es posible asignar uno o varios roles a un usuario.
+. Haga clic en *Confirmar*.
+

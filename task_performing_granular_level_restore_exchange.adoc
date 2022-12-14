@@ -1,0 +1,188 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_exchange.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft Exchange Online, archive, archive, shared, mailboxes, self service portal 
+summary: Puede utilizar SaaS Backup para Microsoft 365 para realizar restauraciones de nivel granular para Microsoft Exchange Online 365. 
+---
+= Realizar una restauración de nivel granular para Microsoft Exchange Online
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+En Microsoft Exchange Online, puede restaurar elementos de nivel granular para un solo usuario, como correos electrónicos individuales, tareas, contactos y eventos de calendario. También puede restaurar elementos de nivel granular para un buzón de grupo de Microsoft 365.
+
+De forma predeterminada, solo el backup más reciente está disponible para restaurar. Otras opciones disponibles son:
+
+image:backup_for_restore_availability.png["Backups disponibles para restaurar"]
+
+En la tabla se indican las opciones de restauración compatibles con elementos a nivel granular para Exchange Online.
+
+[cols="20a,15a,15a,15a,40a"]
+|===
+| Tipo de elemento | Restauración al mismo buzón | Restaurar a otro buzón | Exportar a PST/Exportar a HTML | Dónde encontrarlo en SaaS Backup 
+
+
+ a| 
+Correo/tarea/Contactos/etc.
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Exchange Online > buzones - usuarios
+
+
+
+ a| 
+Carpetas de buzón único/múltiple (Bandeja de entrada, Archivo, etc.)
+
+*Nota*: Excluye el historial de conversaciones.
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Exchange Online > buzones - usuarios > <User Name>
+
+
+
+ a| 
+Nivel de carpeta en Bandeja de entrada
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Exchange Online > buzones - usuarios > <User Name>
+
+
+
+ a| 
+Nivel de subcarpeta en Bandeja de entrada
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+Exchange Online > buzones - usuarios > <User Name>
+
+
+
+ a| 
+Historial de conversaciones en carpeta correo
+ a| 
+No
+ a| 
+No
+ a| 
+Sí
+ a| 
+Exchange Online > buzones - usuarios > <User Name>
+
+
+
+ a| 
+Restauraciones a nivel de uno o varios elementos
+ a| 
+Sí
+ a| 
+Sí
+ a| 
+No
+ a| 
+Exchange Online > buzones - usuarios > <User Name>
+
+
+
+ a| 
+Elementos de restauración únicos o múltiples para "sustituir el contenido existente"
+ a| 
+Sí
+ a| 
+No
+ a| 
+No
+ a| 
+Exchange Online > buzones - usuarios > <User Name>
+
+|===
+.Pasos
+. En el Panel de control, haga clic en el número que aparece arriba *PROTEGIDO* en el cuadro Exchange.
++
+image:number_protected_exchange.gif["Captura de pantalla del número de instancias protegidas en Exchange"]
+
+. Seleccione la opción de restauración.
++
+.. Para buzones compartidos, haga clic en la ficha *COMPARTIDO*.
+.. Para los buzones de correo de archivo, haga clic en la ficha *ARCHIVO*.
+.. Para buzones normales, permanezca en la pestaña *USUARIO*.
+
+
+. Haga clic en el buzón para el que necesite realizar una restauración de nivel granular.
+. Restaure una categoría completa de Microsoft Office Exchange o restaure un elemento específico de una categoría. Para un buzón de Microsoft 365 Groups, sólo tiene la opción de restaurar desde la categoría de correo o la categoría de calendario.
+. Seleccione la categoría (correo, tareas, contactos u otros) que necesite restaurar.
++
+
+NOTE: Si desea restaurar un único elemento dentro de la categoría, haga clic en la categoría y, a continuación, seleccione los elementos que desea restaurar.
+
+. Haga clic en *Restaurar*.
+. Seleccione una opción de restauración.
++
+** *Restaurar en el mismo buzón*
++
+Si se restaura al mismo buzón, de forma predeterminada, se creará una carpeta de restauración con la fecha y hora actuales en la ubicación del contenido original que contiene la copia de seguridad. Si selecciona *sustituir el contenido existente*, los datos actuales se sustituyen por completo por la copia de seguridad.
+
++
+Para grupos de Microsoft 365, sólo tiene la opción de restaurar al mismo buzón. El contenido existente se reemplaza de forma predeterminada. En Microsoft Exchange Online, puede restaurar al mismo buzón y reemplazar el contenido existente, o puede restaurar a otro buzón.
+
+** *Restaurar a otro buzón*
++
+Si restaura a otro buzón, debe introducir el buzón de destino en el campo de búsqueda. Puede escribir una parte de la dirección de correo electrónico de destino en el campo de búsqueda para iniciar una búsqueda automática de buzones de destino coincidentes.
+
+** *Exportar a PST*
++
+Puede seleccionar incluir todas las subcarpetas de categoría.
+
++
+Si exporta a PST, recibirá un correo electrónico de notificación con la ubicación del archivo PST cuando finalice la exportación.
+
++
+
+NOTE: Esta opción no está disponible para grupos de Microsoft 365.
+
++
+
+NOTE: Si selecciona la opción de restauración *Exportar a PST*, el enlace proporcionado es válido durante siete días y se autentica previamente.
+
+** *Exportar a datos* (disponible sólo para grupos de Microsoft 365):
++
+Si exporta, se crean dos archivos zip, un archivo zip para el buzón de correo de Microsoft 365 Groups y otro archivo zip para los sitios SharePoint de Microsoft 365 Groups. Recibirá un mensaje de correo electrónico de notificación con la ubicación del archivo PST y una dirección URL autenticada a la ubicación del archivo .zip.
+
++
+
+NOTE: Si selecciona la opción de restauración *Exportar a datos*, el enlace proporcionado es válido durante siete días y se autentica previamente.
+
+
+
+. Haga clic en *Confirmar*.
++
+Aparece un mensaje que indica que el trabajo de restauración se ha creado.
+
+. Haga clic en *Ver el progreso del trabajo* para controlar el progreso de la restauración.
+
+
+.Información relacionada
+Para obtener más información acerca del uso del Portal de autoservicio para restaurar elementos de Microsoft Exchange Online, consulte link:reference_about_ssp.hmtl["Acerca de Self Service Portal"].

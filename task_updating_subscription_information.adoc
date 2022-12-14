@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_updating_subscription_information.html 
+keywords: netapp, saas backup, renew, update, updating, add-on, add, on, license, subscription, extension 
+summary: Puede actualizar, agregar o renovar una licencia. 
+---
+= Actualice la información de suscripción
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Después de adquirir una licencia complementaria o una extensión de suscripción, puede actualizar los datos de su suscripción en SaaS Backup.
+
+
+NOTE: Cualquier buzón de usuario habitual, tanto protegido como sin protección, consume una licencia. Los buzones compartidos no consumen una licencia.
+
+.Pasos
+. Haga clic en *Servicios* en el panel de navegación de la izquierda.
+. Haga clic en image:configure_icon.gif["Captura de pantalla del icono de configuración"] en la esquina derecha.
+. Haga clic en *Actualizar* junto a Detalles de la suscripción.
+. Introduzca el mismo nombre de usuario y contraseña que utilizó al iniciar la sesión por primera vez.
+. Haga clic en *Enviar*.
+

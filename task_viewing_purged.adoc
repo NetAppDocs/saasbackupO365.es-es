@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_purged.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, purged, deleted, accounts, mailboxes, sites, mysites 
+summary: Puede ver una lista de buzones o cuentas de usuario que se han purgado. 
+---
+= Ver una lista de datos purgados
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede ver una lista de buzones o cuentas de usuario que se han purgado.
+
+.Pasos
+. Haga clic en image:configure_icon.gif["Captura de pantalla del icono de configuración"] Junto a su ID de usuario de SaaS Backup en la esquina superior izquierda.
+. Seleccione *AJUSTES DE CUENTA*.
+. HAGA CLIC EN *RETENER Y PURGAR*.
+. En *Purgar datos*, haga clic en *Mostrar lista purgada*.
++
+Puede ver una lista de elementos programados para purgarse y una lista de elementos que ya se han purgado.
+
+

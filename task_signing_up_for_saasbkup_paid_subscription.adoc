@@ -1,0 +1,74 @@
+---
+sidebar: sidebar 
+permalink: task_signing_up_for_saasbkup_paid_subscription.html 
+keywords: netapp, saas backup, microsoft 365, getting started, sign up, signing up, paid, subscription, licensed, version 
+summary: Puede registrarse para SaaS Backup para Microsoft 365 con su cuenta de servicio de Microsoft 365 o con su cuenta de SSO de NetApp. 
+---
+= Regístrese para SaaS Backup para Microsoft 365
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Puede registrarse para SaaS Backup para Microsoft 365 con su cuenta de servicio de Microsoft 365 o con su cuenta de SSO de NetApp.
+
+
+
+== Regístrese con una cuenta de servicio de Microsoft 365
+
+.Pasos
+. Introduzca la URL de SaaS Backup para Microsoft 365 en el explorador web:https://saasbackup.netapp.com[]
+. Seleccione su región. El tenancy se crea en la región seleccionada. Los datos se almacenarán en esa ubicación del centro de datos y no se podrán cambiar más adelante.
+. Haga clic en *Registrarse* en la parte inferior de la página de destino.
+. Acepte el contrato de licencia para usuario final.
+. Haga clic en *Registrarse con Office 365*.image:sign_up_0365.gif["Captura de pantalla del botón hecho clic para firmar SaaS Backup para Microsoft 365 mediante una cuenta de servicio de Microsoft 365"]
+. Introduzca la dirección de correo electrónico y la contraseña de su cuenta de servicio de administrador global de Microsoft 365 y, a continuación, haga clic en *Iniciar sesión*. Aparece una lista de los permisos solicitados por SaaS Backup para Microsoft 365.
+. Haga clic en *Aceptar*.
+. Introduzca la información del usuario solicitada.
+. Haga clic en *Registrarse*. Se mostrará su nombre de usuario y una lista de permisos asignados a SaaS Backup para Microsoft 365.
+. Haga clic en *Siguiente*. Se muestra una lista de los servicios disponibles de Microsoft 365.
+. Seleccione los servicios de Microsoft 365 que desea activar.
+. Haga clic en *Siguiente*.
+. Si ha adquirido su licencia a través de NetApp, se muestran los tipos de suscripción haga clic en link:task_completing_signing_up_ipa.html["aquí"] para conocer pasos adicionales.
+. Si adquirió su licencia a través de Cloud Marketplace, como AWS, se mostrará la información de licencia. Haga clic en link:task_completing_signing_up_marketplace.html["aquí"] para conocer pasos adicionales.
+
+
+
+
+== Regístrese con una cuenta de SSO de NetApp
+
+.Antes de empezar
+Para validar su suscripción, debe tener un ID de usuario y una contraseña de SSO de NetApp. Si no tiene una cuenta SSO de NetApp, vaya a. https://mysupport.netapp.com/eservice/public/now.do[] para registrarse en uno. Una vez procesada su solicitud, recibirá una notificación por correo electrónico con sus credenciales de SSO de NetApp. Tardarán aproximadamente 24 horas en procesar la solicitud y enviar el correo electrónico de notificación.
+
+.Pasos
+. Introduzca la URL de SaaS Backup para Microsoft 365 en el explorador web:https://saasbackup.netapp.com[]
+. Haga clic en Sign up en la parte inferior de la página de destino.
+. Acepte el contrato de licencia para usuario final.
+. Haga clic en *Regístrese con NetApp SSO*.image:sign_up_sso.gif["Captura de pantalla del botón hecho para firmar SaaS Backup para Microsoft 365 mediante una cuenta SSO de NetApp"]
+. Introduzca su nombre de inicio de sesión único y contraseña de NetApp y, a continuación, haga clic en *LOGIN*.
+. Introduzca la información de usuario solicitada y, a continuación, haga clic en *Registrarse*.
+. Haga clic en *Servicios* image:bluecircle_icon.gif["Captura de pantalla del icono de servicios de SaaS Backup para Microsoft 365"] .
+. Haga clic en Microsoft 365 image:O365_icon.gif["Icono de Microsoft 365"] Para seleccionar el servicio SaaS.
+. Haga clic en *Agregar cuenta de Microsoft Office 365*.
+. Introduzca la dirección de correo electrónico y la contraseña de su cuenta de servicio de administrador global de Microsoft 365 y, a continuación, haga clic en *Iniciar sesión*. Aparece una lista de los permisos solicitados por SaaS Backup para Microsoft 365.
+. Haga clic en *Aceptar*.
+. Haga clic en *Siguiente*. Se muestra una lista de los servicios disponibles de Microsoft 365.
+. Seleccione los servicios de Microsoft 365 que desea activar.
+. Haga clic en *Siguiente*.
+. Seleccione *Licencia* para el tipo de suscripción.
+. Introduzca la información solicitada y, a continuación, valide la suscripción.
+. Haga clic en *Siguiente*.
+. Seleccione la opción de almacenamiento de backup.
++
+.. Haga clic en *SaaS Backup proveyó de almacenamiento*.
+.. Seleccione la opción de almacenamiento *Amazon S3* o *Azure Blob*.
+.. Seleccione la región *AWS S3* o *Azure Blob* para su copia de seguridad. Debe seleccionar la región más cercana a la ubicación física de los datos de los que realiza la copia de seguridad.
+.. Haga clic en *Siguiente*.
+.. Revise su configuración y haga clic en *Guardar*.
+
+
+
