@@ -21,7 +21,7 @@ Puede registrarse para SaaS Backup para Microsoft 365 con su cuenta de servicio 
 == Regístrese con una cuenta de servicio de Microsoft 365
 
 .Pasos
-. Introduzca la URL de SaaS Backup para Microsoft 365 en el explorador web:https://saasbackup.netapp.com[]
+. Introduzca la URL de SaaS Backup para Microsoft 365 en el explorador web:https://[]
 . Seleccione su región. El tenancy se crea en la región seleccionada. Los datos se almacenarán en esa ubicación del centro de datos y no se podrán cambiar más adelante.
 . Haga clic en *Registrarse* en la parte inferior de la página de destino.
 . Acepte el contrato de licencia para usuario final.
@@ -42,10 +42,10 @@ Puede registrarse para SaaS Backup para Microsoft 365 con su cuenta de servicio 
 == Regístrese con una cuenta de SSO de NetApp
 
 .Antes de empezar
-Para validar su suscripción, debe tener un ID de usuario y una contraseña de SSO de NetApp. Si no tiene una cuenta SSO de NetApp, vaya a. https://mysupport.netapp.com/eservice/public/now.do[] para registrarse en uno. Una vez procesada su solicitud, recibirá una notificación por correo electrónico con sus credenciales de SSO de NetApp. Tardarán aproximadamente 24 horas en procesar la solicitud y enviar el correo electrónico de notificación.
+Para validar su suscripción, debe tener un ID de usuario y una contraseña de SSO de NetApp. Si no tiene una cuenta SSO de NetApp, vaya a. https://[] para registrarse en uno. Una vez procesada su solicitud, recibirá una notificación por correo electrónico con sus credenciales de SSO de NetApp. Tardarán aproximadamente 24 horas en procesar la solicitud y enviar el correo electrónico de notificación.
 
 .Pasos
-. Introduzca la URL de SaaS Backup para Microsoft 365 en el explorador web:https://saasbackup.netapp.com[]
+. Introduzca la URL de SaaS Backup para Microsoft 365 en el explorador web:https://[]
 . Haga clic en Sign up en la parte inferior de la página de destino.
 . Acepte el contrato de licencia para usuario final.
 . Haga clic en *Regístrese con NetApp SSO*.image:sign_up_sso.gif["Captura de pantalla del botón hecho para firmar SaaS Backup para Microsoft 365 mediante una cuenta SSO de NetApp"]

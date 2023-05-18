@@ -40,8 +40,6 @@ Si ya es cliente y no ha activado la autenticación moderna, debe tomar medidas.
 
 Si pone en marcha Microsoft Azure en EE. UU., sus datos no abandonarán su entorno de Microsoft. Durante el proceso de registro de SaaS Backup para Microsoft 365, puede usar el almacenamiento de Azure Blob o su propio almacenamiento.
 
-link:task_signing_up_for_saasbkup_free_trial.html["Regístrese para SaaS Backup desde una prueba gratuita"]
-
 link:task_signing_up_for_saasbkup_paid_subscription.html["Regístrese para SaaS Backup con una suscripción pagada"]
 
 
@@ -161,13 +159,6 @@ link:task_deleting_security_groups.html["Eliminar grupos de seguridad"]
 * SaaS Backup para Microsoft 365 ahora admite varias ubicaciones de backup en cada región admitida.
 +
 Ahora puede elegir cualquiera de las ubicaciones disponibles en la región seleccionada como el sitio para el backup de datos. Se recomienda elegir la ubicación que sea geográficamente más cercana a la ubicación de los datos. La ubicación recomendada por SaaS Backup está marcada como *preferida* en la lista de opciones.
-
-+
-
-NOTE: Si va a actualizar desde una versión de prueba y elige una ubicación de copia de seguridad diferente de la ubicación utilizada en la prueba, los datos de prueba no se conservan.
-
-+
-link:task_upgrading_from_trial.html["Actualizar desde una suscripción de prueba"]
 
 * Ahora puede liberar licencias de usuario y ponerlas a disposición de otros usuarios.link:task_releasing_a_user_license.html["Liberar una licencia de usuario"]
 

@@ -18,7 +18,7 @@ Puede utilizar *Búsqueda avanzada* para Microsoft Exchange Online para buscar e
 
 Los administradores pueden activar *Búsqueda avanzada* en link:https://mysupport.netapp.com/["Soporte técnico"] y enviando una solicitud. También puede enviar un correo electrónico al equipo de soporte de SaaS Backup en saasbackupsupport@netapp.com.
 
-Después de habilitar *Búsqueda avanzada*, puede activar Portal de autoservicio (SSP) para arrendatarios individuales. Si no activa *Búsqueda avanzada* antes de la primera copia de seguridad, no aparecerán resultados de búsqueda. Para obtener más información sobre el Portal de autoservicio, consulte link:reference_about_ssp.html["Acerca de Self Service Portal"].
+Después de habilitar *Búsqueda avanzada*, puede activar Portal de autoservicio (SSP) para arrendatarios individuales. Si no activa *Búsqueda avanzada* antes de la primera copia de seguridad, no aparecerán resultados de búsqueda.
 
 image:advanced_search_settings_exchange.png["Captura de pantalla de la configuración de búsqueda avanzada"]
 

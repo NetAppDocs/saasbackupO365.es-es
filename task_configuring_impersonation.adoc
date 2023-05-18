@@ -20,7 +20,7 @@ Si tiene previsto utilizar SaaS Backup con Microsoft Exchange Online, debe confi
 
 == Configurar automáticamente la suplantación
 
-Para configurar automáticamente la suplantación, ejecute https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx["Comandos de MSDN PowerShell"].
+Para configurar automáticamente la suplantación, ejecute https://["Comandos de MSDN PowerShell"].
 
 
 

@@ -183,6 +183,3 @@ Aparece un mensaje que indica que el trabajo de restauración se ha creado.
 
 . Haga clic en *Ver el progreso del trabajo* para controlar el progreso de la restauración.
 
-
-.Información relacionada
-Para obtener más información acerca del uso del Portal de autoservicio para restaurar elementos de Microsoft Exchange Online, consulte link:reference_about_ssp.hmtl["Acerca de Self Service Portal"].
