@@ -19,7 +19,7 @@ Si adquirió SaaS Backup a través de NetApp, el soporte se activa de forma pred
 Si va a actualizar desde una versión de prueba de SaaS Backup, puede activar el soporte técnico antes o después de completar el proceso de actualización.
 
 .Antes de empezar
-Para activar el soporte, debe tener un ID de usuario y una contraseña con SSO de NetApp. Si no tiene una cuenta SSO de NetApp, vaya a. http://[] para registrarse en uno. Una vez procesada su solicitud, recibirá una notificación por correo electrónico con sus credenciales de SSO de NetApp. Tardarán aproximadamente 24 horas en procesar la solicitud y enviar el correo electrónico de notificación.
+Para activar el soporte, debe tener un ID de usuario y una contraseña con SSO de NetApp. Si no tiene una cuenta SSO de NetApp, vaya a. http://register.netapp.com[] para registrarse en uno. Una vez procesada su solicitud, recibirá una notificación por correo electrónico con sus credenciales de SSO de NetApp. Tardarán aproximadamente 24 horas en procesar la solicitud y enviar el correo electrónico de notificación.
 
 .Pasos
 . Haga clic en image:services.gif["Captura de pantalla del botón Servicios"] en el panel de navegación de la izquierda.

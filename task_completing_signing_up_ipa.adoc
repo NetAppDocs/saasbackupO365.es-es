@@ -17,7 +17,7 @@ summary: Puede registrarse para SaaS Backup para Microsoft 365 con su cuenta de 
 Si adquirió su licencia a través de NetApp, se mostrarán los tipos de suscripción. Complete el proceso de inscripción siguiendo estos pasos.
 
 .Antes de empezar
-Para validar su suscripción, debe tener un ID de usuario y una contraseña de SSO de NetApp. Si no tiene una cuenta SSO de NetApp, vaya a. https://[] para registrarse en uno. Una vez procesada su solicitud, recibirá una notificación por correo electrónico con sus credenciales de SSO de NetApp. Tardarán aproximadamente 24 horas en procesar la solicitud y enviar el correo electrónico de notificación.
+Para validar su suscripción, debe tener un ID de usuario y una contraseña de SSO de NetApp. Si no tiene una cuenta SSO de NetApp, vaya a. https://mysupport.netapp.com/eservice/public/now.do[] para registrarse en uno. Una vez procesada su solicitud, recibirá una notificación por correo electrónico con sus credenciales de SSO de NetApp. Tardarán aproximadamente 24 horas en procesar la solicitud y enviar el correo electrónico de notificación.
 
 .Pasos
 . Seleccione *Licencia* para el tipo de suscripción.
