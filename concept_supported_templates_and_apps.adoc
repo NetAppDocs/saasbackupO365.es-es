@@ -38,11 +38,14 @@ Sólo se admiten las plantillas siguientes para backups en línea de Microsoft S
 * EHS#1 (sitio raíz)
 * EHS#0 (sitio raíz)
 * SITEPAGEPUBLISHING#0 (sitio de comunicación)
-* GRUPO#0 (prefijo de colección de sitios de grupo)
+* SPSPERS#10 (Sitios personales)
 * STS#1 (sitio en blanco)
 * STS#2 (área de documentos)
 * STS#3 (sitio moderno del equipo)
 * APLICACIÓN n.o 0 (plantilla de aplicación)
+* BLANKINTERNET#0 (Sitio de publicación)
+* TEAMCHANNEL#0
+* TEAMCHANNEL#1 (Canal de equipo privado)
 
 
 
