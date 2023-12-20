@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, backup, setting, update, updating,
 summary: Puede actualizar la configuración de la copia de seguridad para controlar varias opciones de copia de seguridad. La configuración de respaldo disponible varía según el servicio. 
 ---
 = Actualice la configuración de copia de seguridad
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

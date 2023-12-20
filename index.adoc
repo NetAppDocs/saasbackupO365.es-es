@@ -1,6 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: index.html 
+keywords: netapp, saas backup, microsoft 365, microsoft office exchange, get started, amazon, azure 
 summary: Bienvenido al portal de documentación de NetApp SaaS Backup para Microsoft 365. 
 ---
 = Documentación de NetApp SaaS Backup para Microsoft 365
@@ -10,7 +11,6 @@ summary: Bienvenido al portal de documentación de NetApp SaaS Backup para Micro
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:keywords: netapp, saas backup, microsoft 365, microsoft office exchange, get started, amazon, azure
 
 
 SaaS Backup de NetApp es una oferta segura basada en web de software como servicio (SaaS) que realiza backups de sus datos de Microsoft 365 en el almacenamiento de Amazon S3 y en el almacenamiento de Microsoft Azure Blob.

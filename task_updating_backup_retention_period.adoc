@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, backup, retention, period, update,
 summary: Puede actualizar el período de tiempo, en número de años, que los datos se conservan para niveles individuales, buzones, sitios y MySites a 7 años, 10 años o ilimitados. 
 ---
 = Actualice el período de retención de las copias de seguridad
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

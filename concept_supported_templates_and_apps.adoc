@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, backup, supported, templates, apps
 summary: Sólo se admiten determinadas plantillas y aplicaciones para Microsoft SharePoint Online. 
 ---
 = Plantillas y aplicaciones compatibles para backup en Microsoft SharePoint Online
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
